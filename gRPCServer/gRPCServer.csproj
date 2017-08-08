@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.3.0" />
+    <PackageReference Include="Grpc" Version="1.3.6" />
+    <PackageReference Include="Grpc.Core" Version="1.3.6" />
+    <PackageReference Include="Grpc.Tools" Version="1.3.6" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\gRPCDemo\gRPCDemo.csproj" />
+  </ItemGroup>
+
+</Project>
